@@ -17,6 +17,13 @@ public class Member {
 		this.regdate = regdate;
 	}
 	
+	public Member(String id, String password, String nickname) {
+		this.id = id;
+		this.password = password;
+		this.nickname = nickname;
+	}
+	
+	
 	public int getNo() {
 		return no;
 	}
